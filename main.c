@@ -152,7 +152,7 @@ opt_input:
 
 void login_opt_view()
 {
-    system("clear");
+    system("cls");
     char htxt[6] = "LOGIN",
          opt1[23] = " 1. Login Sebagai User",
          opt2[24] = " 2. Login Sebagai Admin";
@@ -305,7 +305,7 @@ opt_input:
 }
 void admin_user_data_list_view()
 {
-    system("clear");
+    system("cls");
     char htxt[15] = "LIST DATA USER";
     refill_wsize();
     int blen = wsize.cols / 2;
@@ -369,7 +369,7 @@ inpt:
 }
 void admin_services_list_view()
 {
-    system("clear");
+    system("cls");
     char htxt[15] = "LIST DATA JASA";
     refill_wsize();
     int blen = wsize.cols / 2;
@@ -461,7 +461,7 @@ inpt:
 }
 void register_view()
 {
-    system("clear");
+    system("cls");
     char htxt[14] = "USER REGISTER";
     refill_wsize();
     int blen = wsize.cols / 2;
